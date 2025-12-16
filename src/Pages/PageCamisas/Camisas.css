@@ -1,0 +1,91 @@
+.mainCamisas {
+    display: block;
+    unicode-bidi: isolate;
+    height: 1920px;
+  
+
+}
+
+
+/* banner */
+.banner_01 {
+    width: 100%;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.titulo span {
+    font-size: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.card {
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+/* rodapé */
+
+
+.meio .face {
+    width: 37px;
+    height: 37px;
+    
+}
+
+.direita img {
+    display: flex;
+    width: 250px;
+    height: 165px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+
+/* MEDIA */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .titulo,
+    .cards {
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+       
+    }
+
+    
+}
