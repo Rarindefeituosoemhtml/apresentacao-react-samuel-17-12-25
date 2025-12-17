@@ -3,7 +3,7 @@ import Home from "./Pages/Home/Home";
 import Camisas from "./Pages/PageCamisas/Camisas";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-
+import Cadastro from "./Pages/Cadastro/Cadastro"
 function App() {
   return (
      <>
@@ -11,6 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/camisas" element={<Camisas />} />
+      <Route path="/cadastro" element={<Cadastro />} />
     </Routes>
     <Footer />
      </>

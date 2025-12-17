@@ -1,4 +1,5 @@
 // import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 // import { useNavigate } from "react-router-dom";
@@ -25,9 +26,10 @@ function Header() {
           />
         </svg>
       </div>
-
+    
+    <Link className="logo" to={"/cadastro"} > 
       <h1 className="logo">wear rarin</h1>
-
+    </Link>
       <div className="icons_fim">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
           <path

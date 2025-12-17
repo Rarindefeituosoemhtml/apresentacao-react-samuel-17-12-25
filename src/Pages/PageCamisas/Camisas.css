@@ -1,7 +1,7 @@
 .mainCamisas {
     display: block;
     unicode-bidi: isolate;
-    height: 2500px;
+    height: 300vh;
   
 
 }
@@ -97,6 +97,10 @@ h2{
     .cards {
         width: 100%;
     }
+    
+     .mainCamisas{
+         height: 420vh;
+     }
 
     footer{
         display: flex;
@@ -104,6 +108,7 @@ h2{
         height: 500px;
        
     }
-
     
-}
+  }
+    
+ 
