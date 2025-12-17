@@ -12,6 +12,7 @@ import Banner from "./../../Components/Banner/Banner"
 export default function Home() {
   return (
     <>
+    
       <section className="container_main">
         <main className="mainHome">
           <Banner />

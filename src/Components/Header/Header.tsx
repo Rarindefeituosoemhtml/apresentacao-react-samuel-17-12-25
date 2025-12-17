@@ -1,14 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./Header.css";
-import "./Header.css";
-import { useNavigate } from "react-router-dom";
+
+// import { useNavigate } from "react-router-dom";
 
 
 function Header() {
    // 3. const / estados (ANTES do return)
-  const [menuOpen, setMenuOpen] = useState(false);
-  const navigate = useNavigate();  
-
+  
 
   return (
     <header className="header">
